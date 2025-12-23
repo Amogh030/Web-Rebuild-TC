@@ -166,9 +166,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <StatsSection />
-
       {/* About Preview Section */}
       <section className="section-padding bg-background">
         <div className="container-custom">
@@ -206,6 +203,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Stats Section */}
+      <StatsSection />
 
       {/* Services Section */}
       <section className="section-padding bg-muted/30">
