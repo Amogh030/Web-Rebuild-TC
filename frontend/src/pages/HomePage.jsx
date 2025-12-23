@@ -23,6 +23,8 @@ const HomePage = () => {
   useEffect(() => {
     setIsVisible(true);
   }, []);
+
+  const services = [
     {
       icon: <Palette size={28} className="text-primary" />,
       title: 'Digital Transformation & Experience Design',
