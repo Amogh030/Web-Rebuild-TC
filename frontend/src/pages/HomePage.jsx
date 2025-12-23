@@ -106,17 +106,33 @@ const HomePage = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 bg-dots opacity-10" />
+        {/* Decorative Background Patterns */}
+        <div className="absolute inset-0 overflow-hidden">
+          {/* Geometric shapes */}
+          <div className="absolute top-20 left-10 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/30 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/3 right-1/4 w-32 h-32 border-2 border-white/10 rotate-45"></div>
+          <div className="absolute bottom-1/3 left-1/4 w-24 h-24 border-2 border-white/10 rounded-full"></div>
+          
+          {/* Dots pattern */}
+          <div className="absolute inset-0 bg-dots opacity-5" />
+          
+          {/* Diagonal lines */}
+          <div className="absolute top-0 left-0 right-0 bottom-0">
+            <div className="absolute top-1/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+            <div className="absolute top-2/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+            <div className="absolute top-3/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+          </div>
+        </div>
         
         {/* Hero Image Overlay */}
         <div className="absolute inset-0">
           <img
             src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
             alt="Modern IT Infrastructure"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-10"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary-light/90 to-secondary/90" />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary-light/90 to-secondary/85" />
         </div>
 
         {/* Content */}
