@@ -21,7 +21,7 @@ const ServicesPage = () => {
       description:
         'Reimagining legacy systems, streamlining operations, and creating intuitive, user-centric solutions that elevate engagement and deliver real business value.',
       link: '/services/digital-transformation',
-      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
     },
     {
       icon: <Brain size={28} className="text-primary" />,
@@ -29,7 +29,7 @@ const ServicesPage = () => {
       description:
         'Empowering organizations with AI-driven automation, advanced data analytics, and machine learning models that transform operations and drive intelligent decision-making.',
       link: '/services/ai-data-automation',
-      image: 'https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
     },
     {
       icon: <Code size={28} className="text-primary" />,
@@ -37,7 +37,7 @@ const ServicesPage = () => {
       description:
         'Building scalable applications, revamping legacy systems, and providing continuous support to ensure peak performance and seamless user experiences.',
       link: '/services/application-development',
-      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d',
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
     },
     {
       icon: <Layers size={28} className="text-primary" />,
@@ -45,7 +45,7 @@ const ServicesPage = () => {
       description:
         'End-to-end capabilities across Adobe Experience Cloud, including AEM implementation, digital asset management, and experience optimization.',
       link: '/services/adobe-experience',
-      image: 'https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg',
+      image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0',
     },
     {
       icon: <Cloud size={28} className="text-primary" />,
@@ -53,7 +53,7 @@ const ServicesPage = () => {
       description:
         'Modernize and scale with secure, flexible, and cost-effective cloud solutions. Streamline deployment with DevOps practices for faster delivery.',
       link: '/services/cloud-enablement',
-      image: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa',
     },
     {
       icon: <CheckCircle2 size={28} className="text-primary" />,
@@ -61,7 +61,7 @@ const ServicesPage = () => {
       description:
         'Ensuring software excellence through robust quality engineering that enhances performance, accelerates delivery, and eliminates defects before production.',
       link: '/services/quality-engineering',
-      image: 'https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg',
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40',
     },
     {
       icon: <Settings size={28} className="text-primary" />,
@@ -69,7 +69,7 @@ const ServicesPage = () => {
       description:
         'Comprehensive governance services that align technology with business goals, enforce compliance, and enhance accountability across your IT landscape.',
       link: '/services/it-governance',
-      image: 'https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg',
+      image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf',
     },
     {
       icon: <Gauge size={28} className="text-primary" />,
@@ -77,7 +77,7 @@ const ServicesPage = () => {
       description:
         'Reliable managed IT services that keep your systems secure, scalable, and running smoothly—so you can focus on growth, not glitches.',
       link: '/services/managed-it',
-      image: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg',
+      image: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6',
     },
     {
       icon: <Shield size={28} className="text-primary" />,
@@ -85,7 +85,7 @@ const ServicesPage = () => {
       description:
         'Protect your digital assets with end-to-end cybersecurity solutions that detect threats early, safeguard data, and ensure business continuity.',
       link: '/services/cybersecurity',
-      image: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg',
+      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b',
     },
   ];
 
