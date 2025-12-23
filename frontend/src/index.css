@@ -86,46 +86,46 @@ code {
     }
     
     .dark {
-        --background: 215 30% 8%;
+        --background: 210 20% 10%;
         --foreground: 0 0% 98%;
         
-        --card: 215 25% 12%;
+        --card: 210 18% 12%;
         --card-foreground: 0 0% 98%;
         
-        --popover: 215 25% 12%;
+        --popover: 210 18% 12%;
         --popover-foreground: 0 0% 98%;
         
-        --primary: 180 85% 50%;
-        --primary-foreground: 215 30% 8%;
-        --primary-light: 180 75% 60%;
-        --primary-glow: 180 85% 70%;
+        --primary: 0 85% 55%;
+        --primary-foreground: 0 0% 100%;
+        --primary-light: 0 80% 60%;
+        --primary-glow: 0 85% 70%;
         
-        --secondary: 215 80% 35%;
+        --secondary: 210 15% 30%;
         --secondary-foreground: 0 0% 98%;
-        --secondary-light: 215 70% 45%;
-        --secondary-glow: 215 80% 55%;
+        --secondary-light: 210 12% 40%;
+        --secondary-glow: 210 10% 50%;
         
-        --accent: 185 90% 55%;
-        --accent-foreground: 215 30% 8%;
-        --accent-hover: 185 85% 65%;
+        --accent: 0 85% 55%;
+        --accent-foreground: 0 0% 100%;
+        --accent-hover: 0 80% 60%;
         
-        --muted: 215 20% 18%;
-        --muted-foreground: 215 10% 65%;
+        --muted: 210 15% 18%;
+        --muted-foreground: 0 0% 70%;
         
         --destructive: 0 62% 50%;
         --destructive-foreground: 0 0% 98%;
         
-        --border: 215 20% 20%;
-        --input: 215 20% 20%;
-        --ring: 180 85% 50%;
+        --border: 210 15% 20%;
+        --input: 210 15% 20%;
+        --ring: 0 85% 55%;
         
-        --gradient-primary: linear-gradient(135deg, hsl(180 85% 40%), hsl(180 75% 55%));
-        --gradient-secondary: linear-gradient(135deg, hsl(215 80% 30%), hsl(215 70% 40%));
-        --gradient-hero: linear-gradient(135deg, hsl(215 30% 10%), hsl(215 40% 18%), hsl(180 60% 25%));
-        --gradient-subtle: linear-gradient(180deg, hsl(215 25% 10%), hsl(215 30% 8%));
+        --gradient-primary: linear-gradient(135deg, hsl(0 85% 50%), hsl(0 75% 55%));
+        --gradient-secondary: linear-gradient(135deg, hsl(210 15% 25%), hsl(210 12% 35%));
+        --gradient-hero: linear-gradient(135deg, hsl(210 20% 12%), hsl(210 18% 18%), hsl(0 85% 30%));
+        --gradient-subtle: linear-gradient(180deg, hsl(210 18% 12%), hsl(210 20% 10%));
         
-        --shadow-glow: 0 0 30px hsl(180 85% 50% / 0.4);
-        --shadow-glow-primary: 0 0 40px hsl(180 85% 50% / 0.35);
+        --shadow-glow: 0 0 30px hsl(0 85% 50% / 0.4);
+        --shadow-glow-primary: 0 0 40px hsl(0 85% 50% / 0.35);
     }
 }
 
