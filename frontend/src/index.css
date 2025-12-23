@@ -17,32 +17,32 @@ code {
 
 @layer base {
     :root {
-        /* Color System - Deep Navy + Cyan Professional Palette */
+        /* Color System - Vibrant Red + Charcoal Professional Palette */
         --background: 0 0% 100%;
-        --foreground: 215 25% 15%;
+        --foreground: 210 15% 20%;
         
         --card: 0 0% 100%;
-        --card-foreground: 215 25% 15%;
+        --card-foreground: 210 15% 20%;
         
         --popover: 0 0% 100%;
-        --popover-foreground: 215 25% 15%;
+        --popover-foreground: 210 15% 20%;
         
-        /* Primary: Deep Navy - Professional & Trustworthy */
-        --primary: 215 100% 20%;
-        --primary-foreground: 0 0% 98%;
-        --primary-light: 215 80% 30%;
-        --primary-glow: 215 90% 40%;
+        /* Primary: Vibrant Red - Bold & Professional */
+        --primary: 0 85% 50%;
+        --primary-foreground: 0 0% 100%;
+        --primary-light: 0 75% 60%;
+        --primary-glow: 0 80% 65%;
         
-        /* Secondary: Cyan/Teal - Modern & Innovative */
-        --secondary: 180 80% 45%;
+        /* Secondary: Charcoal/Dark Slate Grey - Professional Foundation */
+        --secondary: 210 15% 25%;
         --secondary-foreground: 0 0% 100%;
-        --secondary-light: 180 70% 55%;
-        --secondary-glow: 180 85% 65%;
+        --secondary-light: 210 12% 35%;
+        --secondary-glow: 210 10% 45%;
         
-        /* Accent: Bright Cyan for CTAs */
-        --accent: 185 95% 50%;
-        --accent-foreground: 215 100% 15%;
-        --accent-hover: 185 100% 40%;
+        /* Accent: Vibrant Red for CTAs and highlights */
+        --accent: 0 85% 50%;
+        --accent-foreground: 0 0% 100%;
+        --accent-hover: 0 75% 45%;
         
         --muted: 215 10% 95%;
         --muted-foreground: 215 15% 45%;
