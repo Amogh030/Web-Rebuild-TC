@@ -236,25 +236,74 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Client Logos Section */}
-      <section className="section-padding-sm bg-background">
+      {/* Client Logos Section - Scrolling */}
+      <section className="section-padding-sm bg-background overflow-hidden">
         <div className="container-custom">
           <h3 className="text-2xl md:text-3xl font-semibold text-center text-foreground mb-12">
-            Trusted by Industry Leaders
+            Our Clients
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
-            {clients.map((client, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-center p-6 rounded-xl bg-muted/50 hover:bg-muted transition-all hover-lift grayscale hover:grayscale-0"
-              >
+          <div className="relative">
+            {/* Scrolling container */}
+            <div className="flex animate-scroll">
+              {/* First set of images */}
+              <div className="flex-shrink-0 px-4">
                 <img
-                  src={client.logo}
-                  alt={client.name}
-                  className="max-h-12 w-auto opacity-60 hover:opacity-100 transition-opacity"
+                  src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/93ttyc5r_our%20clients-1.png"
+                  alt="Our Clients"
+                  className="h-24 w-auto object-contain"
                 />
               </div>
-            ))}
+              <div className="flex-shrink-0 px-4">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/6flv5zyg_our%20clients-2.png"
+                  alt="Our Clients"
+                  className="h-24 w-auto object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 px-4">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/7h7ls22z_our%20clients-3.png"
+                  alt="Our Clients"
+                  className="h-24 w-auto object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 px-4">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/ldb3p08v_our%20clients-4.png"
+                  alt="Our Clients"
+                  className="h-24 w-auto object-contain"
+                />
+              </div>
+              {/* Duplicate set for seamless loop */}
+              <div className="flex-shrink-0 px-4">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/93ttyc5r_our%20clients-1.png"
+                  alt="Our Clients"
+                  className="h-24 w-auto object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 px-4">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/6flv5zyg_our%20clients-2.png"
+                  alt="Our Clients"
+                  className="h-24 w-auto object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 px-4">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/7h7ls22z_our%20clients-3.png"
+                  alt="Our Clients"
+                  className="h-24 w-auto object-contain"
+                />
+              </div>
+              <div className="flex-shrink-0 px-4">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/ldb3p08v_our%20clients-4.png"
+                  alt="Our Clients"
+                  className="h-24 w-auto object-contain"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
