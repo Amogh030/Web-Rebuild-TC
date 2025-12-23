@@ -28,7 +28,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <img 
-                src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/rbx2fp42_Gemini_Generated_Image_b6bg3kb6bg3kb6bg.png"
+                src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/2hse3av8_new%20logo.png"
                 alt="Techno-Comp Inc."
                 className="h-10 w-auto"
               />
