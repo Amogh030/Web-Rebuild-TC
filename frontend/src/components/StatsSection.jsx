@@ -69,31 +69,24 @@ export const StatsSection = () => {
   const stats = [
     {
       icon: TrendingUp,
-      value: '1000',
+      value: '1865',
       suffix: '+',
       label: 'Projects Completed',
       delay: 0,
     },
     {
       icon: Users,
-      value: '394',
-      suffix: '',
-      label: 'Global Consultants',
+      value: '4352',
+      suffix: '+',
+      label: 'Global Placements',
       delay: 100,
     },
     {
       icon: Clock,
-      value: '29',
+      value: '30',
       suffix: '+',
       label: 'Years of Experience',
       delay: 200,
-    },
-    {
-      icon: Award,
-      value: '98',
-      suffix: '%',
-      label: 'Client Satisfaction',
-      delay: 300,
     },
   ];
 
