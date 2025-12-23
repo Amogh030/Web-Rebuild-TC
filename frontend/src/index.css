@@ -72,12 +72,12 @@ code {
         --gradient-subtle: linear-gradient(180deg, hsl(0 0% 98%), hsl(0 0% 100%));
         
         /* Shadows */
-        --shadow-sm: 0 1px 2px 0 hsl(215 25% 15% / 0.05);
-        --shadow-md: 0 4px 6px -1px hsl(215 25% 15% / 0.1), 0 2px 4px -2px hsl(215 25% 15% / 0.1);
-        --shadow-lg: 0 10px 15px -3px hsl(215 25% 15% / 0.1), 0 4px 6px -4px hsl(215 25% 15% / 0.1);
-        --shadow-xl: 0 20px 25px -5px hsl(215 25% 15% / 0.1), 0 8px 10px -6px hsl(215 25% 15% / 0.1);
-        --shadow-glow: 0 0 20px hsl(180 80% 50% / 0.3);
-        --shadow-glow-primary: 0 0 30px hsl(215 100% 40% / 0.25);
+        --shadow-sm: 0 1px 2px 0 hsl(210 15% 20% / 0.05);
+        --shadow-md: 0 4px 6px -1px hsl(210 15% 20% / 0.1), 0 2px 4px -2px hsl(210 15% 20% / 0.1);
+        --shadow-lg: 0 10px 15px -3px hsl(210 15% 20% / 0.1), 0 4px 6px -4px hsl(210 15% 20% / 0.1);
+        --shadow-xl: 0 20px 25px -5px hsl(210 15% 20% / 0.1), 0 8px 10px -6px hsl(210 15% 20% / 0.1);
+        --shadow-glow: 0 0 20px hsl(0 85% 50% / 0.3);
+        --shadow-glow-primary: 0 0 30px hsl(0 85% 50% / 0.25);
         
         /* Transitions */
         --transition-base: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
