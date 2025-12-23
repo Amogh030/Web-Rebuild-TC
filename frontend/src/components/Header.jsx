@@ -36,12 +36,11 @@ export const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="flex items-center">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <span className="text-xl font-bold text-primary-foreground">TC</span>
-              </div>
-              <span className="ml-3 text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-                Techno-Comp Inc.
-              </span>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/rbx2fp42_Gemini_Generated_Image_b6bg3kb6bg3kb6bg.png"
+                alt="Techno-Comp Inc."
+                className="h-16 w-auto"
+              />
             </div>
           </Link>
 
