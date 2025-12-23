@@ -27,10 +27,11 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 rounded-lg bg-white/20 backdrop-blur-md flex items-center justify-center">
-                <span className="text-xl font-bold">TC</span>
-              </div>
-              <span className="text-lg font-bold">Techno-Comp Inc.</span>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_polished-web-project/artifacts/rbx2fp42_Gemini_Generated_Image_b6bg3kb6bg3kb6bg.png"
+                alt="Techno-Comp Inc."
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
               A leader in IT systems integration & technology services since 1996.
